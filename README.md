@@ -4,7 +4,7 @@ Welcome to the Mathematical Experiment Space.
 
 You can find out our codes, documents and other things here, we suppose.
 
-Before you start, please read the [important notices](https://github.com/T0nyX1ang/Mathematical-Experiment/blob/master/README.md#important-notices) below.
+Before you start, please read the [important notices](./README.md#important-notices) below.
 
 ## Writing Template(LaTeX)
 Writing template(.cls) file can be fetched [here](./raw/master/template/mathexpthesis.cls).
@@ -19,7 +19,7 @@ You can also find out the results we get from our codes. However, some of the co
 Those codes will be released **before** we submit the document which is mentioned in the following part.
 
 Here is a table of our results:
-* [Experiment 1 Results](./blob/master/exp1/experiment1.html)
+* [Experiment 1 Results](./exp1/experiment1.html)
 
 ## Experiment Documents
 You can find our documents submitted as our homework in PDF format. Mistakes, or even misunderstandings of a theory are probable as we just study about it.
