@@ -4,10 +4,10 @@ Welcome to the Mathematical Experiment Space.
 
 You can find out our codes, documents and other things here, we suppose.
 
-Before you start, please read the [important notices](https://raw.githubusercontent.com/T0nyX1ang/Mathematical-Experiment/master/template/mathexpthesis.cls) below.
+Before you start, please read the [important notices](https://github.com/T0nyX1ang/Mathematical-Experiment/blob/master/README.md#important-notices) below.
 
 ## Writing Template(LaTeX)
-Writing template(.cls) file can be fetched [here](https://github.com/T0nyX1ang/Mathematical-Experiment/blob/master/template/mathexpthesis.cls).
+Writing template(.cls) file can be fetched [here](https://raw.githubusercontent.com/T0nyX1ang/Mathematical-Experiment/master/template/mathexpthesis.cls).
 
 The main project is now maintained [here](https://github.com/T0nyX1ang/WHU-MathExpThesis). The template holds a different license which is looser on distribution.(lppl-1.3c)
 
