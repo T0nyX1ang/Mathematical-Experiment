@@ -7,7 +7,7 @@ You can find out our codes, documents and other things here, we suppose.
 Before you start, please read the [important notices](./README.md#important-notices) below.
 
 ## Writing Template(LaTeX)
-Writing template(.cls) file can be fetched [here](./raw/master/template/mathexpthesis.cls).
+Writing template(.cls) file can be fetched [here](https://github.com/T0nyX1ang/Mathematical-Experiment/raw/master/template/mathexpthesis.cls).
 
 The main project is now maintained [here](https://github.com/T0nyX1ang/WHU-MathExpThesis). The template holds a different license which is looser on distribution.(lppl-1.3c)
 
@@ -27,7 +27,7 @@ You can find our documents submitted as our homework in PDF format. Mistakes, or
 Those codes will be released **after** we submit the document to our teacher.(Earlier than every Friday)
 
 Here is a table of our documents:
-* [Experiment 0 Document](./raw/master/exp0/exp0.pdf)
+* [Experiment 0 Document](https://github.com/T0nyX1ang/Mathematical-Experiment/raw/master/exp0/exp0.pdf)
 
 ## Important Notices:
 * You are **NOT ALLOWED** to use our codes without permission. We can check code plagarism if we want to.
