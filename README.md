@@ -19,7 +19,7 @@ You can also find out the results we get from our codes. However, some of the co
 Those codes will be released **before** we submit the document which is mentioned in the following part.
 
 Here is a table of our results:
-* [Experiment 1 Results](https://github.com/T0nyX1ang/Mathematical-Experiment/blob/master/exp1/experiment1.html)
+* [Experiment 1 Results](https://github.com/T0nyX1ang/Mathematical-Experiment/exp1/experiment1.html)
 
 ## Experiment Documents
 You can find our documents submitted as our homework in PDF format. Mistakes, or even misunderstandings of a theory are probable as we just study about it.
