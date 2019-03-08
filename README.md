@@ -4,7 +4,7 @@ Welcome to the Mathematical Experiment Space.
 
 You can find out our codes, documents and other things here, we suppose.
 
-Before you start, please read the [important notices] below.
+Before you start, please read the [important notices](https://github.com/T0nyX1ang/Mathematical-Experiment/blob/master/README.md#important-notices) below.
 
 ## Writing Template(LaTeX)
 Writing template(.cls) file can be fetched here.
