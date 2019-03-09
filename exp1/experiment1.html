@@ -10,17 +10,10 @@ description: Experiment on data visualizations.
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
       --><meta name="generator" content="MATLAB 9.4"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-03-09"><meta name="DC.source" content="experiment1.m"><style type="text/css">
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
-
-a { color:#005fce; text-decoration:none; }
-a:hover { color:#005fce; text-decoration:underline; }
-a:visited { color:#004aa0; text-decoration:none; }
 
 p { padding:0px; margin:0px 0px 20px; }
 img { padding:0px; margin:0px 0px 20px; border:none; }
 p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
-
-.content { font-size:1.2em; line-height:140%; padding: 20px; }
 
 pre, code { font-size:12px; }
 tt { font-size: 1.2em; }
@@ -88,7 +81,7 @@ title(<span class="string">'Slice plot'</span>);
 </pre><img vspace="5" hspace="5" src="experiment1_07.png" alt=""> <h2 id="5">Exercise 5</h2><pre class="codeinput">clear, clc;
 x = linspace(-2 * pi, 2 * pi, 50);
 y = linspace(-2 * pi, 2 * pi, 50);
-t = linspace(0, 10, 100);
+t = linspace(0, 10, 1000);
 [xx, yy] = meshgrid(x, y);
 <span class="keyword">for</span> i = 1: size(t, 2)
     zz = 10 .* exp(1 - t(i)) .* sin(xx) .* cos(yy);
@@ -96,7 +89,7 @@ t = linspace(0, 10, 100);
     title(<span class="string">"Plot where t = "</span> + num2str(t(i)));
     drawnow;
 <span class="keyword">end</span>
-</pre><img vspace="5" hspace="5" src="experiment1_08.png" alt=""> <img vspace="5" hspace="5" src="experiment1_09.png" alt=""> <h2 id="6">Exercise 6</h2><pre class="codeinput">clear, clc;
+</pre><img vspace="5" hspace="5" src="experiment1_08.png" alt=""> <h2 id="6">Exercise 6</h2><pre class="codeinput">clear, clc;
 x = linspace(-2, 2, 20);
 y = linspace(-2, 2, 20);
 [xx, yy] = meshgrid(x, y);
@@ -107,8 +100,8 @@ hold <span class="string">on</span>;
 quiver(xx, yy, px, py);
 hold <span class="string">off</span>;
 axis <span class="string">image</span>;
-</pre><img vspace="5" hspace="5" src="experiment1_10.png" alt=""> <h2 id="7">Exercise 7</h2><pre class="codeinput">clear, clc;
-total = 50;
+</pre><img vspace="5" hspace="5" src="experiment1_09.png" alt=""> <h2 id="7">Exercise 7</h2><pre class="codeinput">clear, clc;
+total = 2000;
 x = 1;
 y = 1;
 rec = [0.5 0 0 0.5 0 0; 0.5 0 0 0.5 0.5 0; 0.5 0 0 0.5 0.25 0.5];
@@ -123,15 +116,15 @@ rec = [0.5 0 0 0.5 0 0; 0.5 0 0 0.5 0.5 0; 0.5 0 0 0.5 0.25 0.5];
     y = rec(select, 2) * ox + rec(select, 4) * oy + rec(select, 6);
 <span class="keyword">end</span>
 hold <span class="string">off</span>;
-</pre><img vspace="5" hspace="5" src="experiment1_11.png" alt=""> <h2 id="8">Exercise 8</h2><pre class="codeinput">clear, clc;
+</pre><img vspace="5" hspace="5" src="experiment1_10.png" alt=""> <h2 id="8">Exercise 8</h2><pre class="codeinput">clear, clc;
 fimplicit(@(x, y) sin(x .* y) + x + y, [-5 5 -5 5]);
-</pre><img vspace="5" hspace="5" src="experiment1_12.png" alt=""> <h2 id="9">Exercise 9</h2><pre class="codeinput">clear, clc;
+</pre><img vspace="5" hspace="5" src="experiment1_11.png" alt=""> <h2 id="9">Exercise 9</h2><pre class="codeinput">clear, clc;
 datadata = load(<span class="string">'./data.mat'</span>);
 data = datadata.xx;
 data(isnan(data(:, 1)), :) = [];
 data(isnan(data(:, 2)), :) = [];
 scatter(data(:, 1), data(:, 2));
-</pre><img vspace="5" hspace="5" src="experiment1_13.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
+</pre><img vspace="5" hspace="5" src="experiment1_12.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %% Exercise 1
 clear, clc;
@@ -193,7 +186,7 @@ title('Slice plot');
 clear, clc;
 x = linspace(-2 * pi, 2 * pi, 50);
 y = linspace(-2 * pi, 2 * pi, 50);
-t = linspace(0, 10, 100);
+t = linspace(0, 10, 1000);
 [xx, yy] = meshgrid(x, y);
 for i = 1: size(t, 2)
     zz = 10 .* exp(1 - t(i)) .* sin(xx) .* cos(yy);
@@ -217,7 +210,7 @@ axis image;
 
 %% Exercise 7
 clear, clc;
-total = 50;
+total = 2000;
 x = 1;
 y = 1;
 rec = [0.5 0 0 0.5 0 0; 0.5 0 0 0.5 0.5 0; 0.5 0 0 0.5 0.25 0.5];
