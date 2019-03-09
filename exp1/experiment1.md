@@ -1,10 +1,9 @@
 ---
-layout: default
 title: Experiment 1 Results
 description: Experiment on data visualizations.
+layout: default
 ---
 
-<head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
    <!--
 This HTML was auto-generated from MATLAB code.
@@ -238,4 +237,3 @@ data(isnan(data(:, 1)), :) = [];
 data(isnan(data(:, 2)), :) = [];
 scatter(data(:, 1), data(:, 2));
 ##### SOURCE END #####
---></body>
