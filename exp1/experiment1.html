@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Experiment 1 Results
-site.github.is_project_page: true
+description: Experiment on data visualizations.
 ---
 
 <html><head>
@@ -9,7 +9,35 @@ site.github.is_project_page: true
    <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><meta name="generator" content="MATLAB 9.4"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-03-09"><meta name="DC.source" content="experiment1.m"></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#1">Exercise 1</a></li><li><a href="#2">Exercise 2</a></li><li><a href="#3">Exercise 3</a></li><li><a href="#4">Exercise 4</a></li><li><a href="#5">Exercise 5</a></li><li><a href="#6">Exercise 6</a></li><li><a href="#7">Exercise 7</a></li><li><a href="#8">Exercise 8</a></li><li><a href="#9">Exercise 9</a></li></ul></div><h2 id="1">Exercise 1</h2><pre class="codeinput">clear, clc;
+      --><meta name="generator" content="MATLAB 9.4"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-03-09"><meta name="DC.source" content="experiment1.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#1">Exercise 1</a></li><li><a href="#2">Exercise 2</a></li><li><a href="#3">Exercise 3</a></li><li><a href="#4">Exercise 4</a></li><li><a href="#5">Exercise 5</a></li><li><a href="#6">Exercise 6</a></li><li><a href="#7">Exercise 7</a></li><li><a href="#8">Exercise 8</a></li><li><a href="#9">Exercise 9</a></li></ul></div><h2 id="1">Exercise 1</h2><pre class="codeinput">clear, clc;
 x = linspace(-2, 2, 1000);
 y1 = x.^2;
 y2 = sin(x);
@@ -68,7 +96,7 @@ t = linspace(0, 10, 100);
     title(<span class="string">"Plot where t = "</span> + num2str(t(i)));
     drawnow;
 <span class="keyword">end</span>
-</pre><img vspace="5" hspace="5" src="experiment1_08.png" alt=""> <h2 id="6">Exercise 6</h2><pre class="codeinput">clear, clc;
+</pre><img vspace="5" hspace="5" src="experiment1_08.png" alt=""> <img vspace="5" hspace="5" src="experiment1_09.png" alt=""> <h2 id="6">Exercise 6</h2><pre class="codeinput">clear, clc;
 x = linspace(-2, 2, 20);
 y = linspace(-2, 2, 20);
 [xx, yy] = meshgrid(x, y);
@@ -79,7 +107,7 @@ hold <span class="string">on</span>;
 quiver(xx, yy, px, py);
 hold <span class="string">off</span>;
 axis <span class="string">image</span>;
-</pre><img vspace="5" hspace="5" src="experiment1_09.png" alt=""> <h2 id="7">Exercise 7</h2><pre class="codeinput">clear, clc;
+</pre><img vspace="5" hspace="5" src="experiment1_10.png" alt=""> <h2 id="7">Exercise 7</h2><pre class="codeinput">clear, clc;
 total = 50;
 x = 1;
 y = 1;
@@ -95,15 +123,15 @@ rec = [0.5 0 0 0.5 0 0; 0.5 0 0 0.5 0.5 0; 0.5 0 0 0.5 0.25 0.5];
     y = rec(select, 2) * ox + rec(select, 4) * oy + rec(select, 6);
 <span class="keyword">end</span>
 hold <span class="string">off</span>;
-</pre><img vspace="5" hspace="5" src="experiment1_10.png" alt=""> <h2 id="8">Exercise 8</h2><pre class="codeinput">clear, clc;
+</pre><img vspace="5" hspace="5" src="experiment1_11.png" alt=""> <h2 id="8">Exercise 8</h2><pre class="codeinput">clear, clc;
 fimplicit(@(x, y) sin(x .* y) + x + y, [-5 5 -5 5]);
-</pre><img vspace="5" hspace="5" src="experiment1_11.png" alt=""> <h2 id="9">Exercise 9</h2><pre class="codeinput">clear, clc;
+</pre><img vspace="5" hspace="5" src="experiment1_12.png" alt=""> <h2 id="9">Exercise 9</h2><pre class="codeinput">clear, clc;
 datadata = load(<span class="string">'./data.mat'</span>);
 data = datadata.xx;
 data(isnan(data(:, 1)), :) = [];
 data(isnan(data(:, 2)), :) = [];
 scatter(data(:, 1), data(:, 2));
-</pre><img vspace="5" hspace="5" src="experiment1_12.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
+</pre><img vspace="5" hspace="5" src="experiment1_13.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %% Exercise 1
 clear, clc;
