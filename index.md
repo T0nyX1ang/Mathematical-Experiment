@@ -39,8 +39,12 @@ Our LaTeX writing template(in `.cls` format) file can be fetched [here](https://
 The template's project is now maintained [here](https://github.com/T0nyX1ang/WHU-MathExpThesis). The template holds a different license which is looser on distribution.[`lppl-1.3c`]
 
 ## Important Notices:
-* You are **NOT ALLOWED** to use our codes without permission. We can check code plagarism if we want to.
+* You are **NOT ALLOWED** to use our codes without permission. We can check code plagiarism if we want to.
 * You can still refer to our codes and make necessary changes, but **at your own risk**.
 * You are strictly **NOT ALLOWED** to **copy or publish** our documents **anywhere**. Maybe they're sort of naive from your perspectives, please respect our work and devotion.
 * You **can't access** our documents unless we have submitted them to our teacher.
 * Although we have a strict distribution rule, it's **free of charge** to download our codes and documents for *academic* use.
+
+## Acknowledgements:
+* Thanks my group for supporting this project.
+* `jekyll`(base model) and `cayman`(base theme) greatly increased our efficiency in building the page.
