@@ -1,3 +1,9 @@
+---
+layout: default
+title: Mathematical Experiment
+description: Mathematical experiment weekly homework.
+---
+
 # Mathematical Experiment Space
 
 Welcome to the Mathematical Experiment Space. 
