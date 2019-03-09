@@ -4,12 +4,13 @@ Welcome to the Mathematical Experiment Space.
 
 You can find out our codes, documents and other things here, we suppose.
 
-Before you start, please read the [important notices](./README.md#important-notices) below.
+Before you start, please read the [important notices](#important-notices) below. When you finish, you may want to see:
+* [Our experiment results](#experiment-results)
+* [Our experiment documents](#experiment-documents)
+* [Our dedicate LaTeX template](#writing)
 
-## Writing Template(LaTeX)
-Writing template(.cls) file can be fetched [here](https://github.com/T0nyX1ang/Mathematical-Experiment/raw/master/template/mathexpthesis.cls).
-
-The main project is now maintained [here](https://github.com/T0nyX1ang/WHU-MathExpThesis). The template holds a different license which is looser on distribution.(lppl-1.3c)
+## Testing
+[See here](./test/folderpage.html).
 
 ## Experiment Results
 You can find our codes to complete the project in this place. However, those codes might be **modified** at any time.
@@ -28,6 +29,11 @@ Those codes will be released **after** we submit the document to our teacher.(Ea
 
 Here is a table of our documents:
 * [Experiment 0 Document](https://github.com/T0nyX1ang/Mathematical-Experiment/raw/master/exp0/exp0.pdf)
+
+## Writing Template
+Our LaTeX writing template(in `.cls` format) file can be fetched [here](https://github.com/T0nyX1ang/Mathematical-Experiment/raw/master/template/mathexpthesis.cls).
+
+The template's project is now maintained [here](https://github.com/T0nyX1ang/WHU-MathExpThesis). The template holds a different license which is looser on distribution.[`lppl-1.3c`]
 
 ## Important Notices:
 * You are **NOT ALLOWED** to use our codes without permission. We can check code plagarism if we want to.
