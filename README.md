@@ -1,39 +1,10 @@
-# Mathematical Experiment Space
+# Mathematical Experiment Dev Space
 
-Welcome to the Mathematical Experiment Space. 
+Welcome to the Mathematical Experiment Space for developers. 
 
 You can find out our codes, documents and other things here, we suppose.
 
-Before you start, please read the [important notices](#important-notices) below. When you finish, you may want to see:
-* [Our experiment results](#experiment-results)
-* [Our experiment documents](#experiment-documents)
-* [Our dedicate LaTeX template](#writing)
-
-## Testing
-[See here](./test/folderpage.html).
-
-## Experiment Results
-You can find our codes to complete the project in this place. However, those codes might be **modified** at any time.
-
-You can also find out the results we get from our codes. However, some of the codes won't generate the **full** results as there are *dynamic* results, like a movie.
-
-Those codes will be released **before** we submit the document which is mentioned in the following part.
-
-Here is a table of our results:
-* [Experiment 1 Results](./exp1/experiment1.html)
-
-## Experiment Documents
-You can find our documents submitted as our homework in PDF format. Mistakes, or even misunderstandings of a theory are probable as we just study about it.
-
-Those codes will be released **after** we submit the document to our teacher.(Earlier than every Friday)
-
-Here is a table of our documents:
-* [Experiment 0 Document](https://github.com/T0nyX1ang/Mathematical-Experiment/raw/master/exp0/exp0.pdf)
-
-## Writing Template
-Our LaTeX writing template(in `.cls` format) file can be fetched [here](https://github.com/T0nyX1ang/Mathematical-Experiment/raw/master/template/mathexpthesis.cls).
-
-The template's project is now maintained [here](https://github.com/T0nyX1ang/WHU-MathExpThesis). The template holds a different license which is looser on distribution.[`lppl-1.3c`]
+Before you start, please read the [important notices](#important-notices) below. When you finish, you may want to see our official page [here](https://t0nyx1ang.github.io/Mathematical-Experiment).
 
 ## Important Notices:
 * You are **NOT ALLOWED** to use our codes without permission. We can check code plagarism if we want to.
