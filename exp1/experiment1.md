@@ -34,10 +34,29 @@ set(gca, 'fontsize', 16);
 ## Exercise 2
 ```matlab
 %% Exercise 2
+% method 1
+clear, clc;
+interval = 1000;
+func1 = @(x) sin(x);
+func = @(t) (1 - t .^ 2) .^ (3 / 2);
+x = linspace(0, 4 * pi, 100);
+for i = 1:100
+    t = linspace(0, func1(x(i)), interval + 1);
+    y(i) = sum(func(t) * func1(x(i)) / interval);
+end
+figure(2);
+plot(x, y, 'linewidth', 1);
+xlabel('x-axis');
+ylabel('y-axis');
+xlim([0 4 * pi]);
+set(gca, 'fontsize', 16);
+
+% method 2
 clear, clc;
 syms x t;
-y=(1 - t ^ 2) ^ (3 / 2);
-z=int(y, t, 0, sin(x));
+y = (1 - t ^ 2) ^ (3 / 2);
+z = int(y, t, 0, sin(x));
+figure(1);
 fplot(z, [0 4 * pi], 'linewidth', 1);
 xlabel('x-axis');
 ylabel('y-axis');
