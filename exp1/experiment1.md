@@ -200,7 +200,7 @@ for i = 1: size(t, 2)
 end
 ```
 
-![Experiment 5](experiment1_12.png)
+![Experiment 5](experiment1_12.gif)
 
 ## Exercise 6
 ```matlab
@@ -249,7 +249,7 @@ end
 hold off;
 ```
 
-![Experiment 7](experiment1_14.png)
+![Experiment 7](experiment1_14.gif)
 
 ## Exercise 8
 ```matlab
