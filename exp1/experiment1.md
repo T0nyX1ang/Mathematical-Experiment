@@ -29,7 +29,7 @@ ylabel('y-axis');
 set(gca, 'fontsize', 16);
 ```
 
-![Experiment 1](experiment1_01.png)
+![Exercise 1](experiment1_01.png)
 
 ## Exercise 2
 ```matlab
@@ -63,7 +63,7 @@ ylabel('y-axis');
 set(gca, 'fontsize', 16);
 ```
 
-![Experiment 2](experiment1_02.png)
+![Exercise 2](experiment1_02.png)
 
 ## Exercise 3
 ```matlab
@@ -106,13 +106,13 @@ zlabel('z-axis');
 set(gca, 'fontsize', 16);
 ```
 
-![Experiment 3-1](experiment1_03.png)
+![Exercise 3-1](experiment1_03.png)
 
-![Experiment 3-2](experiment1_04.png)
+![Exercise 3-2](experiment1_04.png)
 
-![Experiment 3-3](experiment1_05.png)
+![Exercise 3-3](experiment1_05.png)
 
-![Experiment 3-4](experiment1_06.png)
+![Exercise 3-4](experiment1_06.png)
 
 ## Exercise 4
 ```matlab
@@ -170,15 +170,15 @@ zlabel('z-axis');
 set(gca, 'fontsize', 14);
 ```
 
-![Experiment 4-1](experiment1_07.png)
+![Exercise 4-1](experiment1_07.png)
 
-![Experiment 4-2](experiment1_08.png)
+![Exercise 4-2](experiment1_08.png)
 
-![Experiment 4-3](experiment1_09.png)
+![Exercise 4-3](experiment1_09.png)
 
-![Experiment 4-4](experiment1_10.png)
+![Exercise 4-4](experiment1_10.png)
 
-![Experiment 4-5](experiment1_11.png)
+![Exercise 4-5](experiment1_11.png)
 
 ## Exercise 5
 ```matlab
@@ -200,7 +200,7 @@ for i = 1: size(t, 2)
 end
 ```
 
-![Experiment 5](experiment1_12.gif)
+![Exercise 5](experiment1_12.gif)
 
 ## Exercise 6
 ```matlab
@@ -224,7 +224,7 @@ ylabel('y-axis');
 set(gca, 'fontsize', 14);
 ```
 
-![Experiment 6](experiment1_13.png)
+![Exercise 6](experiment1_13.png)
 
 ## Exercise 7
 ```matlab
@@ -255,7 +255,7 @@ end
 hold off;
 ```
 
-![Experiment 7](experiment1_14.gif)
+![Exercise 7](experiment1_14.gif)
 
 ## Exercise 8
 ```matlab
@@ -267,7 +267,7 @@ ylabel('y-axis');
 set(gca, 'fontsize', 16);
 ```
 
-![Experiment 8](experiment1_15.png)
+![Exercise 8](experiment1_15.png)
 
 ## Exercise 9
 ```matlab
@@ -284,4 +284,4 @@ ylabel('y-axis');
 set(gca, 'fontsize', 16);
 ```
 
-![Experiment 9](experiment1_16.png)
+![Exercise 9](experiment1_16.png)
