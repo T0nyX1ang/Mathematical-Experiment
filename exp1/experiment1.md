@@ -222,7 +222,6 @@ axis square;
 xlabel('x-axis');
 ylabel('y-axis');
 set(gca, 'fontsize', 14);
-
 ```
 
 ![Experiment 6](experiment1_13.png)
@@ -268,7 +267,7 @@ ylabel('y-axis');
 set(gca, 'fontsize', 16);
 ```
 
-![Experiment 6](experiment1_15.png)
+![Experiment 8](experiment1_15.png)
 
 ## Exercise 9
 ```matlab
@@ -285,4 +284,4 @@ ylabel('y-axis');
 set(gca, 'fontsize', 16);
 ```
 
-![Experiment 6](experiment1_16.png)
+![Experiment 9](experiment1_16.png)
