@@ -5,12 +5,12 @@ layout: default
 ---
 
 ## Contents
-* [Chase Model 1 - 1](#Chase-Model-1-1)
-* [Chase Model 1 - 2](#Chase-Model-1-2)
-* [Chase Model 1 - 3](#Chase-Model-1-3)
-* [Chase Model 1 - 4](#Chase-Model-1-4)
-* [Chase Model 2 - 1](#Chase-Model-2-1)
-* [Chase Model 2 - 2](#Chase-Model-2-2)
+* [Chase Model 1 - 1](#Chase-Model-1---1)
+* [Chase Model 1 - 2](#Chase-Model-1---2)
+* [Chase Model 1 - 3](#Chase-Model-1---3)
+* [Chase Model 1 - 4](#Chase-Model-1---4)
+* [Chase Model 2 - 1](#Chase-Model-2---1)
+* [Chase Model 2 - 2](#Chase-Model-2---2)
 
 ## Chase Model 1 - 1
 ```matlab
