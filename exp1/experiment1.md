@@ -205,17 +205,24 @@ end
 ## Exercise 6
 ```matlab
 %% Exercise 6
-[x, y] = meshgrid(-2: .2 :2, -2: .2: 2);
+[x, y] = meshgrid(-2: .25 :2, -2: .25: 2);
 Dy = sin(x .* y);
-[fx, fy] = gradient(Dy, .2, .2);
 contour(x, y, Dy);
 hold on;
-quiver(x, y, fx, fy);
+quiver(x, y, ones(size(Dy)), Dy);
+[xreal, yreal] = ode45(@(x, y) sin(x .* y), [-2, 2.2], -1.2);
+plot(xreal, yreal, 'black', 'linewidth', 2);
+[xreal, yreal] = ode45(@(x, y) sin(x .* y), [-2, 2.2], 0);
+plot(xreal, yreal, 'red', 'linewidth', 2);
+[xreal, yreal] = ode45(@(x, y) sin(x .* y), [-2, 2.2], 1.8);
+plot(xreal, yreal, 'magenta', 'linewidth', 2);
+legend('contour', 'arrows', 'initial=-1.2', 'initial=0', 'initial=1.8', 'Location','NorthEastOutside')
 hold off;
-axis image;
+axis square;
 xlabel('x-axis');
 ylabel('y-axis');
 set(gca, 'fontsize', 14);
+
 ```
 
 ![Experiment 6](experiment1_13.png)
