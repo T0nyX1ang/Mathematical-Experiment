@@ -29,6 +29,8 @@ ylabel('y-axis');
 set(gca, 'fontsize', 16);
 ```
 
+**Results:**
+
 ![Exercise 1](experiment1_01.png)
 
 ## Exercise 2
@@ -62,6 +64,8 @@ xlabel('x-axis');
 ylabel('y-axis');
 set(gca, 'fontsize', 16);
 ```
+
+**Results:**
 
 ![Exercise 2](experiment1_02.png)
 
@@ -105,6 +109,8 @@ ylabel('y-axis');
 zlabel('z-axis');
 set(gca, 'fontsize', 16);
 ```
+
+**Results:**
 
 ![Exercise 3-1](experiment1_03.png)
 
@@ -170,6 +176,8 @@ zlabel('z-axis');
 set(gca, 'fontsize', 14);
 ```
 
+**Results:**
+
 ![Exercise 4-1](experiment1_07.png)
 
 ![Exercise 4-2](experiment1_08.png)
@@ -200,6 +208,8 @@ for i = 1: size(t, 2)
 end
 ```
 
+**Results:**
+
 ![Exercise 5](experiment1_12.gif)
 
 ## Exercise 6
@@ -223,6 +233,8 @@ xlabel('x-axis');
 ylabel('y-axis');
 set(gca, 'fontsize', 14);
 ```
+
+**Results:**
 
 ![Exercise 6](experiment1_13.png)
 
@@ -255,6 +267,8 @@ end
 hold off;
 ```
 
+**Results:**
+
 ![Exercise 7](experiment1_14.gif)
 
 ## Exercise 8
@@ -266,6 +280,8 @@ xlabel('x-axis');
 ylabel('y-axis');
 set(gca, 'fontsize', 16);
 ```
+
+**Results:**
 
 ![Exercise 8](experiment1_15.png)
 
@@ -283,5 +299,7 @@ xlabel('x-axis');
 ylabel('y-axis');
 set(gca, 'fontsize', 16);
 ```
+
+**Results:**
 
 ![Exercise 9](experiment1_16.png)
