@@ -23,6 +23,7 @@ You can also find out the results we get from our codes. However, some of the co
 Those codes will be released **before** we submit the document which is mentioned in the following part.
 
 Here is a table of our results:
+* [Experiment 0 Results](./exp1/experiment0.html)
 * [Experiment 1 Results](./exp1/experiment1.html)
 
 ## Experiment Documents
