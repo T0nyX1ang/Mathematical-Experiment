@@ -16,3 +16,4 @@ Before you start, please read the [important notices](#important-notices) below.
 ## Acknowledgements:
 * Thanks my group for supporting this project.
 * `jekyll`(base model) and `cayman`(base theme) greatly increased our efficiency in building the page.
+* `pdf.js`(PDF rendering, testing feature) supports PDF rendering.
