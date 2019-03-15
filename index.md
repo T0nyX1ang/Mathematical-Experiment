@@ -33,6 +33,7 @@ Those codes will be released **after** we submit the document to our teacher.(Ea
 
 Here is a table of our documents:
 * [Experiment 0 Document](https://github.com/T0nyX1ang/Mathematical-Experiment/raw/master/exp0/exp0.pdf)
+* [Experiment 1 Document](https://github.com/T0nyX1ang/Mathematical-Experiment/raw/master/exp1/exp1.pdf)
 
 ## Writing Template
 Our LaTeX writing template(in `.cls` format) file can be fetched [here](https://github.com/T0nyX1ang/Mathematical-Experiment/raw/master/template/mathexpthesis.cls).
