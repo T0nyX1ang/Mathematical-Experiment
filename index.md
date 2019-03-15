@@ -32,16 +32,16 @@ You can find our documents submitted as our homework in PDF format. Mistakes, or
 Those codes will be released **after** we submit the document to our teacher.(Earlier than every Friday)
 
 Here is a table of our documents:
-* [Experiment 0 Document](https://github.com/T0nyX1ang/Mathematical-Experiment/raw/master/exp0/exp0.pdf)
-* [Experiment 1 Document](https://github.com/T0nyX1ang/Mathematical-Experiment/raw/master/exp1/exp1.pdf)
+* [Experiment 0 Document](https://raw.githubusercontent.com/T0nyX1ang/Mathematical-Experiment/master/exp0/exp0.pdf)
+* [Experiment 1 Document](https://raw.githubusercontent.com/T0nyX1ang/Mathematical-Experiment/master/exp1/exp1.pdf)
 
 ## Writing Template
-Our LaTeX writing template(in `.cls` format) file can be fetched [here](https://github.com/T0nyX1ang/Mathematical-Experiment/raw/master/template/mathexpthesis.cls).
+Our LaTeX writing template(in `.cls` format) file can be fetched [here](https://raw.githubusercontent.com/T0nyX1ang/Mathematical-Experiment/master/template/mathexpthesis.cls).
 
 The template's project is now maintained [here](https://github.com/T0nyX1ang/WHU-MathExpThesis). The template holds a different license which is looser on distribution.[`lppl-1.3c`]
 
 ## Important Notices:
-* You are **NOT ALLOWED** to use our codes without permission. We can check code plagiarism if we want to.
+* You are **NOT ALLOWED** to use our codes without written permission. We can check code plagiarism if we want to.
 * You can still refer to our codes and make necessary changes, but **at your own risk**.
 * You are strictly **NOT ALLOWED** to **copy or publish** our documents **anywhere**. Maybe they're sort of naive from your perspectives, please respect our work and devotion.
 * You **can't access** our documents unless we have submitted them to our teacher.
