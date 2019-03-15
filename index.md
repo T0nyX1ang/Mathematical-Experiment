@@ -32,8 +32,8 @@ You can find our documents submitted as our homework in PDF format. Mistakes, or
 Those codes will be released **after** we submit the document to our teacher.(Earlier than every Friday)
 
 Here is a table of our documents:
-* [Experiment 0 Document](https://raw.githubusercontent.com/T0nyX1ang/Mathematical-Experiment/master/exp0/exp0.pdf)
-* [Experiment 1 Document](https://raw.githubusercontent.com/T0nyX1ang/Mathematical-Experiment/master/exp1/exp1.pdf)
+* [Experiment 0 Document](./resources/pdfjs/web/viewer.html?file=./exp0/exp0.pdf)
+* [Experiment 1 Document](./resources/pdfjs/web/viewer.html?file=./exp1/exp1.pdf)
 
 ## Writing Template
 Our LaTeX writing template(in `.cls` format) file can be fetched [here](https://raw.githubusercontent.com/T0nyX1ang/Mathematical-Experiment/master/template/mathexpthesis.cls).
