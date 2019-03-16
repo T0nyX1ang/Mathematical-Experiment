@@ -38,12 +38,13 @@ Here is a table of our documents:
 ## Writing Template
 Our LaTeX writing template is now maintained [here](https://github.com/T0nyX1ang/WHU-MathExpThesis). The template holds a different license which is looser on distribution.[`lppl-1.3c`]
 
-## Important Notices:
-* You are **NOT ALLOWED** to use our codes without written permission. We can check code plagiarism if we want to.
-* You can still refer to our codes and make necessary changes, but **at your own risk**.
+## Important Notices(Updated Mar 16, 2019):
+* You are **NOT ALLOWED** to use our codes without **written permission**. We can check code plagiarism if we want to.
+* You can still refer to our codes and make necessary changes when permission is granted, but **at your own risk**.
 * You are strictly **NOT ALLOWED** to **copy or publish** our documents **anywhere**. Maybe they're sort of naive from your perspectives, please respect our work and devotion.
 * You **can't access** our documents unless we have submitted them to our teacher.
-* Although we have a strict distribution rule, it's **free of charge** to download our codes and documents for *academic* use.
+* Although we have a strict distribution rule, it's **free of charge** to view our codes and documents for **academic use**.
+* **You can't access our source codes now, but this restriction might be lifted later.**
 
 ## Acknowledgements:
 * Thanks my group for supporting this project.
