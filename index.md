@@ -25,6 +25,7 @@ Those codes will be released **before** we submit the document which is mentione
 Here is a table of our results:
 * [Experiment 0 Results](./exp0/experiment0.html)
 * [Experiment 1 Results](./exp1/experiment1.html)
+* [Experiment 2 Results](./exp1/experiment2.html)
 
 ## Experiment Documents
 You can find our documents submitted as our homework in PDF format. Mistakes, or even misunderstandings of a theory are probable as we just study about it.
@@ -34,6 +35,7 @@ Those codes will be released **after** we submit the document to our teacher.(Ea
 Here is a table of our documents:
 * [Experiment 0 Document](./resources/pdfjs/web/viewer.html?file=exp0.pdf)
 * [Experiment 1 Document](./resources/pdfjs/web/viewer.html?file=exp1.pdf)
+* [Experiment 2 Document](./resources/pdfjs/web/viewer.html?file=exp2.pdf)
 
 ## Writing Template
 Our LaTeX writing template is now maintained [here](https://github.com/T0nyX1ang/WHU-MathExpThesis). The template holds a different license which is looser on distribution.[`lppl-1.3c`]
