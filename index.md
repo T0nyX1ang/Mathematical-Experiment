@@ -50,3 +50,6 @@ Our LaTeX writing template is now maintained [here](https://github.com/T0nyX1ang
 * Thanks my group for supporting this project.
 * `jekyll`(base model) and `cayman`(base theme) greatly increased our efficiency in building the page.
 * `pdf.js` supports PDF rendering.
+
+## Share Link:
+Overleaf is a very good platform to compile LaTeX and it supports collaborative writing. In fact, we just compile our LaTeX documents at Overleaf. Click this [link](https://www.overleaf.com?r=de041c52&rm=d&rs=b) to use it, and we will get bonus if you register through this link.
