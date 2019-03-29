@@ -25,7 +25,7 @@ Those codes will be released **before** we submit the document which is mentione
 Here is a table of our results:
 * [Experiment 0 Results](./exp0/experiment0.html)
 * [Experiment 1 Results](./exp1/experiment1.html)
-* [Experiment 2 Results](./exp1/experiment2.html)
+* [Experiment 2 Results](./exp2/experiment2.html)
 
 ## Experiment Documents
 You can find our documents submitted as our homework in PDF format. Mistakes, or even misunderstandings of a theory are probable as we just study about it.
