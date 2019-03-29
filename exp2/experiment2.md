@@ -1447,16 +1447,14 @@ We are sorry to tell you that it's not possible to compile a symbolic toolbox fu
 
 We are sorry for the inconvenience.
 
+**Please note that only binaries are affected. Source codes can be successfully executed.**
+
 ### Windows Binary
 The Windows binary can be downloaded [here](./calc_binary_windows_0.8.6.zip), please verify the hash codes before you run this program.
-
-MD5 Hash: d011e39fcb869ef90f3537c35dcd122f  calc_binary_windows_0.8.6.zip
 
 SHA512 Hash: 1a7fccb99ac10bb3fd5ac9a4da1ad05d626a017530f25eee8b4d9951d05bc24f1a9d5989f9da528a11c5845a323fcad4c2b94d17088624a2fa702df6ad3ef6e0  calc_binary_windows_0.8.6.zip
 
 ### Linux / Mac Binary
 The Linux / Mac binary can be downloaded [here](./calc_binary_linux_mac_0.8.6.zip), please verify the hash codes before you run this program.
-
-MD5 Hash: 607f67b7ed3fe8ff66f5a187a142c8c3  calc_binary_linux_mac_0.8.6.zip
 
 SHA512 Hash: f4247c96ff5dfe4adb671ca1f516ebcca8b728bc5a5c0ca5817f91d42caf0fc0a1902e5571b4b879288b09b423c47af3c3b5a9b131d045ac6338894ac179ff5d  calc_binary_linux_mac_0.8.6.zip
