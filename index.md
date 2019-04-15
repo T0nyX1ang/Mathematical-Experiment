@@ -20,7 +20,7 @@ You can find our codes to complete the project in this place. However, those cod
 
 You can also find out the results we get from our codes. However, some of the codes won't generate the **full** results as there are *dynamic* results, like a movie.
 
-Those codes will be released **before** we submit the document which is mentioned in the following part.
+These codes will be released **before** we submit the document which is mentioned in the following part.
 
 Here is a table of our results:
 * [Experiment 0 Results](./exp0/experiment0.html)
@@ -30,7 +30,7 @@ Here is a table of our results:
 ## Experiment Documents
 You can find our documents submitted as our homework in PDF format. Mistakes, or even misunderstandings of a theory are probable as we just study about it.
 
-Those codes will be released **after** we submit the document to our teacher.(Earlier than every Friday)
+These documents will be released **after** we submit the document to our teacher.(Earlier than every Friday)
 
 Here is a table of our documents:
 * [Experiment 0 Document](./exp0/exp0.pdf)
@@ -51,7 +51,7 @@ Our LaTeX writing template is now maintained [here](https://github.com/T0nyX1ang
 ## Acknowledgements:
 * Thanks my group for supporting this project.
 * `jekyll`(base model) and `cayman`(base theme) greatly increased our efficiency in building the page.
-* `pdf.js` supports PDF rendering.
+* `MathJaX` for displaying LaTeX-style math formulas. [Here](./test_math.html) is a demo page.
 
 ## Share Link:
 Overleaf is a very good platform to compile LaTeX and it supports collaborative writing. In fact, we just compile our LaTeX documents at Overleaf. Click this [link](https://www.overleaf.com?r=de041c52&rm=d&rs=b) to use it, and we will get bonus if you register through this link.
