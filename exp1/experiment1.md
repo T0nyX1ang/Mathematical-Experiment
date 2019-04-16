@@ -31,7 +31,9 @@ set(gca, 'fontsize', 16);
 
 **Results:**
 
+<div align="center">
 ![Exercise 1](experiment1_01.png)
+</div>
 
 ## Exercise 2
 ```matlab
@@ -67,7 +69,9 @@ set(gca, 'fontsize', 16);
 
 **Results:**
 
+<div align="center">
 ![Exercise 2](experiment1_02.png)
+</div>
 
 ## Exercise 3
 ```matlab
@@ -112,13 +116,21 @@ set(gca, 'fontsize', 16);
 
 **Results:**
 
+<div align="center">
 ![Exercise 3-1](experiment1_03.png)
+</div>
 
+<div align="center">
 ![Exercise 3-2](experiment1_04.png)
+</div>
 
+<div align="center">
 ![Exercise 3-3](experiment1_05.png)
+</div>
 
+<div align="center">
 ![Exercise 3-4](experiment1_06.png)
+</div>
 
 ## Exercise 4
 ```matlab
@@ -178,15 +190,25 @@ set(gca, 'fontsize', 14);
 
 **Results:**
 
+<div align="center">
 ![Exercise 4-1](experiment1_07.png)
+</div>
 
+<div align="center">
 ![Exercise 4-2](experiment1_08.png)
+</div>
 
+<div align="center">
 ![Exercise 4-3](experiment1_09.png)
+</div>
 
+<div align="center">
 ![Exercise 4-4](experiment1_10.png)
+</div>
 
+<div align="center">
 ![Exercise 4-5](experiment1_11.png)
+</div>
 
 ## Exercise 5
 ```matlab
@@ -210,7 +232,9 @@ end
 
 **Results:**
 
+<div align="center">
 ![Exercise 5](experiment1_12.gif)
+</div>
 
 ## Exercise 6
 ```matlab
@@ -236,7 +260,9 @@ set(gca, 'fontsize', 14);
 
 **Results:**
 
+<div align="center">
 ![Exercise 6](experiment1_13.png)
+</div>
 
 ## Exercise 7
 ```matlab
@@ -269,7 +295,9 @@ hold off;
 
 **Results:**
 
+<div align="center">
 ![Exercise 7](experiment1_14.gif)
+</div>
 
 ## Exercise 8
 ```matlab
@@ -283,7 +311,9 @@ set(gca, 'fontsize', 16);
 
 **Results:**
 
+<div align="center">
 ![Exercise 8](experiment1_15.png)
+</div>
 
 ## Exercise 9
 ```matlab
@@ -302,4 +332,6 @@ set(gca, 'fontsize', 16);
 
 **Results:**
 
+<div align="center">
 ![Exercise 9](experiment1_16.png)
+</div>

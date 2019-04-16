@@ -32,8 +32,9 @@ plot(xr, yr)
 ```
 velocity = 17.0803 m / s, distance = 256.2050 m.
 ```
-
+<div align="center">
 ![Chase Model 1-1](experiment0_01.png)
+</div>
 
 ## Chase Model 1 - 2
 ```matlab
@@ -73,8 +74,9 @@ end
 ```
 velocity = 17.1489 m / s, distance = 257.3020 m.
 ```
-
+<div align="center">
 ![Chase Model 1-2](experiment0_02.png)
+</div>
 
 ## Chase Model 1 - 3
 ```matlab
@@ -112,8 +114,9 @@ plot(xd(1: i), yd(1: i))
 ```
 velocity = 17.0952 m / s, distance = 256.4280 m.
 ```
-
+<div align="center">
 ![Chase Model 1-3](experiment0_03.png)
+</div>
 
 ## Chase Model 1 - 4
 ```matlab
@@ -175,8 +178,9 @@ plot(xd(1: i), yd(1: i))
 ```
 velocity = 15.4415 m / s, distance = 252.1541 m.
 ```
-
+<div align="center">
 ![Chase Model 1-4](experiment0_04.png)
+</div>
 
 ## Chase Model 2 - 1
 ```matlab
@@ -214,8 +218,9 @@ end
 ```
 
 **Results:**
-
+<div align="center">
 ![Chase Model 2-1](experiment0_05.png)
+</div>
 
 ## Chase Model 2 - 2
 ```matlab
@@ -231,6 +236,6 @@ end
 ```
 
 **Results:**
-
+<div align="center">
 ![Chase Model 2-2](experiment0_06.png)
-
+</div>
