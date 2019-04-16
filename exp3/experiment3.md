@@ -108,9 +108,7 @@ $$
 	\end{aligned}
 $$
 
-<div align="center">
 ![Exercise 4](experiment3_01.png)
-</div>
 
 ## Exercise 5
 ```matlab
@@ -169,9 +167,7 @@ $$
 	\end{aligned}
 $$
 
-<div align="center">
 ![Exercise 6](experiment3_02.png)
-</div>
 
 ## Exercise 7
 
@@ -332,5 +328,4 @@ $$
 
 **As the roots of these polynomial cost much space, we are going to ignore them here.**
 
-<di align=centerv>
-![Exercise 12](experiment3_03.png)</div>
+![Exercise 12](experiment3_03.png)
