@@ -52,7 +52,17 @@ latex(result)
 **Results:**
 
 $$
-	288\,\cos\left(1\right)\,\cos\left(2\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}\,{\sin\left(1\right)}^2-40\,\cos\left(1\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}\,\sin\left(2\right)-28\,\cos\left(1\right)\,\cos\left(2\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}+96\,\cos\left(1\right)\,\cos\left(2\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}\,{\sin\left(1\right)}^3+28\,\cos\left(1\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}\,{\sin\left(1\right)}^2\,\sin\left(2\right)+136\,\cos\left(1\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}\,{\sin\left(1\right)}^3\,\sin\left(2\right)+32\,\cos\left(1\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}\,{\sin\left(1\right)}^4\,\sin\left(2\right)+120\,\cos\left(1\right)\,\cos\left(2\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}\,\sin\left(1\right)-168\,\cos\left(1\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}\,\sin\left(1\right)\,\sin\left(2\right)
+	\begin{aligned}
+	    & 288\,\cos\left(1\right)\,\cos\left(2\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}\,{\sin\left(1\right)}^2 - \\
+	    & 40\,\cos\left(1\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}\,\sin\left(2\right) - \\
+	    & 28\,\cos\left(1\right)\,\cos\left(2\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)} + \\
+	    & 96\,\cos\left(1\right)\,\cos\left(2\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}\,{\sin\left(1\right)}^3 + \\
+	    & 28\,\cos\left(1\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}\,{\sin\left(1\right)}^2\,\sin\left(2\right) + \\
+	    & 136\,\cos\left(1\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}\,{\sin\left(1\right)}^3\,\sin\left(2\right) + \\
+	    & 32\,\cos\left(1\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}\,{\sin\left(1\right)}^4\,\sin\left(2\right) + \\
+	    & 120\,\cos\left(1\right)\,\cos\left(2\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}\,\sin\left(1\right) - \\
+	    & 168\,\cos\left(1\right)\,{\mathrm{e}}^{2\,\sin\left(1\right)}\,\sin\left(1\right)\,\sin\left(2\right)
+    \end{aligned}
 $$
 
 ## Exercise 3
