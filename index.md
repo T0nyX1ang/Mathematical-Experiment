@@ -37,6 +37,7 @@ Here is a table of our documents:
 * [Experiment 0 Document](./exp0/exp0.pdf)
 * [Experiment 1 Document](./exp1/exp1.pdf)
 * [Experiment 2 Document](./exp2/exp2.pdf)
+* [Experiment 3 Document](./exp3/exp3.pdf)
 
 ## Writing Template
 Our LaTeX writing template is now maintained [here](https://github.com/T0nyX1ang/WHU-MathExpThesis). The template holds a different license which is looser on distribution.[`lppl-1.3c`]
