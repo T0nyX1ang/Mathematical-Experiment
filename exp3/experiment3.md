@@ -83,6 +83,7 @@ $$
 
 ## Exercise 4
 ```matlab
+%% Exercise 4
 syms y1(t) y2(t)
 eqns = [diff(y1, t) == y1 - y2, diff(y2, t) == y1 + y2];
 conds = [y1(0) == 1, y2(0) == 2];
