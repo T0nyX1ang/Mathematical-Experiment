@@ -39,6 +39,7 @@ Here is a table of our documents:
 * [Experiment 1 Document](./exp1/exp1.pdf)
 * [Experiment 2 Document](./exp2/exp2.pdf)
 * [Experiment 3 Document](./exp3/exp3.pdf)
+* [Experiment 4 Document](./exp4/exp4.pdf)
 
 ## Writing Template
 Our LaTeX writing template is now maintained [here](https://github.com/T0nyX1ang/WHU-MathExpThesis). The template holds a different license which is looser on distribution.[`lppl-1.3c`]
@@ -54,7 +55,7 @@ Our LaTeX writing template is now maintained [here](https://github.com/T0nyX1ang
 ## Acknowledgements:
 * Thanks my group for supporting this project.
 * `jekyll`(base model) and `cayman`(base theme) greatly increased our efficiency in building the page.
-* `MathJaX` for displaying LaTeX-style math formulas. [Here](./test_math.html) is a demo page.
+* `MathJaX` for displaying LaTeX-style math formulas.
 
 ## Share Link:
 Overleaf is a very good platform to compile LaTeX and it supports collaborative writing. In fact, we just compile our LaTeX documents at Overleaf. Click this [link](https://www.overleaf.com?r=de041c52&rm=d&rs=b) to use it, and we will get bonus if you register through this link.
