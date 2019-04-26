@@ -54,9 +54,9 @@ end
 
 $$
 	\begin{aligned}
-	    & \int_{-\infty}^{\infty} \frac{\esymb^{x^2}}{1 + x^4} \dif x \approx 1.4348 \\
-	    & \int_{0}^{1} \frac{\sin{x}}{\sqrt{1 - x^2}} \dif x \approx 0.8932 \\
-	    & \iint_{x^2 + y^2 \leqslant 2y} (1 + x + y) \dif x \dif y \approx 6.2832 
+	    & \int_{-\infty}^{\infty} \frac{\exp{x^2}}{1 + x^4} \mathrm{d} x \approx 1.4348 \\
+	    & \int_{0}^{1} \frac{\sin{x}}{\sqrt{1 - x^2}} \mathrm{d} x \approx 0.8932 \\
+	    & \iint_{x^2 + y^2 \leqslant 2y} (1 + x + y) \mathrm{d} x \mathrm{d} y \approx 6.2832 
 	\end{aligned}	
 $$
 
@@ -64,9 +64,9 @@ $$
 
 $$
 	\begin{aligned}
-	    & \int_{-\infty}^{\infty} \frac{\esymb^{x^2}}{1 + x^4} \dif x \approx 1.3559 \quad \mbox{Using substitution} \\
-	    & \int_{-\infty}^{\infty} \frac{\esymb^{x^2}}{1 + x^4} \dif x \approx 1.4316 \quad \mbox{Using truncating functions} \\
-	    & \iint_{x^2 + y^2 \leqslant 2y} (1 + x + y) \dif x \dif y \approx 6.2824
+	    & \int_{-\infty}^{\infty} \frac{\exp{x^2}}{1 + x^4} \mathrm{d} x \approx 1.3559 \quad \mbox{Using substitution} \\
+	    & \int_{-\infty}^{\infty} \frac{\exp{x^2}}{1 + x^4} \mathrm{d} x \approx 1.4316 \quad \mbox{Using truncating functions} \\
+	    & \iint_{x^2 + y^2 \leqslant 2y} (1 + x + y) \mathrm{d} x \mathrm{d} y \approx 6.2824
 	\end{aligned}	
 $$
 
