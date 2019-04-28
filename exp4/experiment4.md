@@ -9,6 +9,8 @@ layout: default
 * [Exercise 2](#exercise-2)
 * [Exercise 3](#exercise-3)
 * [Exercise 4](#exercise-4)
+* [Appendix A](#appendix-a)
+* [Appendix B](#appendix-b)
 
 **Please note that all the LaTeX formulas are transformed by MathJaX.**
 
@@ -54,7 +56,7 @@ end
 
 $$
 	\begin{aligned}
-	    & \int_{-\infty}^{\infty} \frac{\exp{x^2}}{1 + x^4} \mathrm{d} x \approx 1.4348 \\
+	    & \int_{-\infty}^{\infty} \frac{\exp{-x^2}}{1 + x^4} \mathrm{d} x \approx 1.4348 \\
 	    & \int_{0}^{1} \frac{\sin{x}}{\sqrt{1 - x^2}} \mathrm{d} x \approx 0.8932 \\
 	    & \iint_{x^2 + y^2 \leqslant 2y} (1 + x + y) \mathrm{d} x \mathrm{d} y \approx 6.2832 
 	\end{aligned}	
@@ -64,8 +66,8 @@ $$
 
 $$
 	\begin{aligned}
-	    & \int_{-\infty}^{\infty} \frac{\exp{x^2}}{1 + x^4} \mathrm{d} x \approx 1.3559 \quad \mbox{Using substitution} \\
-	    & \int_{-\infty}^{\infty} \frac{\exp{x^2}}{1 + x^4} \mathrm{d} x \approx 1.4316 \quad \mbox{Using truncating functions} \\
+	    & \int_{-\infty}^{\infty} \frac{\exp{-x^2}}{1 + x^4} \mathrm{d} x \approx 1.3559 \quad \mbox{Using substitution} \\
+	    & \int_{-\infty}^{\infty} \frac{\exp{-x^2}}{1 + x^4} \mathrm{d} x \approx 1.4316 \quad \mbox{Using truncating functions} \\
 	    & \iint_{x^2 + y^2 \leqslant 2y} (1 + x + y) \mathrm{d} x \mathrm{d} y \approx 6.2824
 	\end{aligned}	
 $$
@@ -399,3 +401,114 @@ end
 **Results:**
 
 ![Exercise 4](experiment4_01.png)
+
+## Appendix A
+
+This appendix is an extension of [Exercise 1](#exercise-1). Dimension is broadened here.
+
+```matlab
+% MatLab built-in integral
+func1 = @(x) exp(-x.^2) ./ (1 + x.^4);
+func2 = @(x) sin(x) ./ sqrt(1 - x.^2);
+func3 = @(theta, r) r .* (1 + r.*cos(theta) + 1 + r.*sin(theta));
+
+result1 = integral(func1, -inf, +inf);
+result2 = integral(func2, 0, 1);
+result3 = integral2(func3, 0, 2 * pi, 0, 1);
+
+result1, result2, result3
+
+func3 = @(x) x(2) .* (2 + x(2) * cos(x(1)) + x(2) * sin(x(1)));
+
+% Monte-Carlo method
+% question 1: make substitution x = arctan(t) to use finite method
+value1 = monte_carlo(@(t) func1(atan(t)) ./ (1 + t.^2), 1, 1000000, -pi / 2, pi / 2);
+(value1 - result1) / result1
+
+% question 1 method 2: using truncating function
+value2 = monte_carlo(func1, 1, 1000000, -100, 100);
+(value2 - result1) / result1
+
+% question 3: make polar substitution
+value3 = monte_carlo(func3, 2, 1000000, [0, 0], [2 * pi, 1]);
+(value3 - result3) / result3
+
+function value = monte_carlo(funct, dimension, iteration, lb, ub)
+    % monte-carlo main method
+    points = zeros(dimension, iteration);
+    total_value = 0;
+    for i = 1: dimension
+        points(i, :) = generate_random_points(iteration, lb(i), ub(i));
+    end
+    for j = 1: iteration
+        total_value = total_value + funct(points(:, j)');
+    end
+    value = total_value * prod(ub - lb) / iteration;
+end
+
+function point = generate_random_points(numbers, lb, ub)
+    % random point generator by uniform distribution
+    point = lb + (ub - lb) .* rand(1, numbers);
+end
+```
+
+## Appendix B
+
+This appendix is an extension of [Exercise 2](#exercise-2). Precision is greatly increased here.
+
+```matlab
+function result = generic_gauss_integral(funct, lb, ub, density, coeff, points)
+    % generic_gauss_integral calculates generic integrals using 
+    % Gauss-Legendre integral method.
+    % funct: the function to be integrated
+    % lb: lower bound of the integral, default = -1
+    % ub: upper bound of the integral, default = 1
+    % interval: intervals of the integral segmentations, default = 1000
+    % coeff: coefficients of the approximation in the integral, default =
+    % Gauss-Legendre coefficients of 3-order precision
+    % points: nodes to use in the integral, default = Gauss-Legendre nodes
+    % of 3-order precision
+    
+    % Parameter completing
+    if (nargin == 1)
+        lb = -1;
+        ub = 1;
+        density = 50;
+        coeff = [1, 1];
+        points = [sqrt(3) / 3, -sqrt(3) / 3];         
+    elseif (nargin == 3)
+        density = 50;
+        coeff = [1, 1];
+        points = [sqrt(3) / 3, -sqrt(3) / 3]; 
+    elseif (nargin == 4)    
+        coeff = [1, 1];
+        points = [sqrt(3) / 3, -sqrt(3) / 3]; 
+    end
+    
+    % Parameter checking
+    if (lb > ub) || (density <= 0) || (size(coeff, 2) ~= size(points, 2))
+        error('Incompatible parameters');
+    end
+    
+    interval = (ub - lb) * density;
+    result = 0;
+    for i = 1: interval
+        lb_now = lb + (i - 1) / interval * (ub - lb);
+        ub_now = lb_now + (ub - lb) / interval;
+        [coeff_a, coeff_b] = interval_transform(lb_now, ub_now, -1, 1);
+        result = result + interval_sum(@(x)funct(x), coeff, (points - coeff_b * ones(size(points))) / coeff_a) / coeff_a;
+    end
+end
+
+function [coeff_a, coeff_b] = interval_transform(lb, ub, nlb, nub)
+    coeff_a = (nub - nlb) / (ub - lb);
+    coeff_b = -(nub * lb - nlb * ub) / (ub - lb);
+end
+
+function interval = interval_sum(funct, coeff, points)    
+    interval = 0;
+    for i = 1: size(coeff, 2)
+        interval = interval + coeff(i) * funct(points(i));
+    end
+end
+```
