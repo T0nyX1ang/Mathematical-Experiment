@@ -29,6 +29,7 @@ Here is a table of our results:
 * [Experiment 3 Results](./exp3/experiment3.html)
 * [Experiment 4 Results](./exp4/experiment4.html)
 * [Experiment 5 Results](./exp5/experiment5.html)
+* [Experiment 6 Results](./exp6/experiment6.html)
 
 ## Experiment Documents
 You can find our documents submitted as our homework in PDF format. Mistakes, or even misunderstandings of a theory are probable as we just study about it.
@@ -42,6 +43,7 @@ Here is a table of our documents:
 * [Experiment 3 Document](./exp3/exp3.pdf)
 * [Experiment 4 Document](./exp4/exp4.pdf)
 * [Experiment 5 Document](./exp5/exp5.pdf)
+* [Experiment 6 Document](./exp6/exp6.pdf)
 
 ## Writing Template
 Our LaTeX writing template is now maintained [here](https://github.com/T0nyX1ang/WHU-MathExpThesis). The template holds a different license which is looser on distribution.[`lppl-1.3c`]
