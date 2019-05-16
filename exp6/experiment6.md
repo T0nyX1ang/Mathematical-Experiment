@@ -203,7 +203,9 @@ end
 
 ![Exercise 4 - 4](experiment6_06.png)
 
-## Exercise A
+## Appendix A
+
+This appendix is an extension of [Exercise 1](#exercise-1). Initial points are wider here.
 
 **Please note that the codes below should be executed with GA Toolbox.**
 
