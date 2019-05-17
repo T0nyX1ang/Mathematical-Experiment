@@ -10,6 +10,8 @@ layout: default
 * [Exercise 3](#exercise-3)
 * [Exercise 4](#exercise-4)
 
+**Please note that all the LaTeX formulas are transformed by MathJaX.**
+
 ## Exercise 1
 ```matlab
 x = [0.52 8.0 17.95 28.65 50.65 104.6 156.6 260.7 364.4 468.0 507.0 520.0];
