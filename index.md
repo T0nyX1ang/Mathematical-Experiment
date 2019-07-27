@@ -20,8 +20,6 @@ You can find our codes to complete the project in this place. However, those cod
 
 You can also find out the results we get from our codes. However, some of the codes won't generate the **full** results as there are *dynamic* results, like a movie.
 
-These codes will be released **before** we submit the document which is mentioned in the following part.
-
 Here is a table of our results:
 * [Experiment 0 Results](./exp0/experiment0.html)
 * [Experiment 1 Results](./exp1/experiment1.html)
@@ -31,11 +29,10 @@ Here is a table of our results:
 * [Experiment 5 Results](./exp5/experiment5.html)
 * [Experiment 6 Results](./exp6/experiment6.html)
 * [Experiment 7 Results](./exp7/experiment7.html)
+* [Experiment 8 Results](./exp8/experiment8.html)
 
 ## Experiment Documents
 You can find our documents submitted as our homework in PDF format. Mistakes, or even misunderstandings of a theory are probable as we just study about it.
-
-These documents will be released **after** we submit the document to our teacher.(Earlier than every Friday)
 
 Here is a table of our documents:
 * [Experiment 0 Document](./exp0/exp0.pdf)
@@ -46,6 +43,7 @@ Here is a table of our documents:
 * [Experiment 5 Document](./exp5/exp5.pdf)
 * [Experiment 6 Document](./exp6/exp6.pdf)
 * [Experiment 7 Document](./exp7/exp7.pdf)
+* [Experiment 8 Document](./exp8/exp8.pdf)
 
 ## Writing Template
 Our LaTeX writing template is now maintained [here](https://github.com/T0nyX1ang/WHU-MathExpThesis). The template holds a different license which is looser on distribution.[`lppl-1.3c`]
