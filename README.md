@@ -1,3 +1,5 @@
 ## Notice:
-This page is left blank, as the source code of this project is being unviewable now.
 
+Please read the licenses carefully if you really want to view our site.
+
+Open source doesn't mean lacking of responsibility.
