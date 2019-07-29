@@ -4,11 +4,13 @@ title: Mathematical Experiment
 description: Mathematical experiment weekly homework.
 ---
 
-# Mathematical Experiment Space
+# Our Official Mathematical Experiment Site
 
-Welcome to the Mathematical Experiment Space. 
+Welcome to the world of Mathematical Experiment. 
 
 You can find out our codes, documents and other things here, we suppose.
+
+We are happy to become open source finally ^\_^.
 
 Before you start, please read the [licenses](./LICENSE.html). 
 
